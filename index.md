@@ -42,8 +42,15 @@ Le client devra alors rentrer le même port et l'ip du serveur. De plus, chacun 
 
 ### Consignes d'installations (README.md)
 
-...
+Pour utiliser notre projet :
 
+#### Requis
+- installer [docker](https://www.docker.com/) sur la machine utilisateur
+#### Installation
+dans un terminal
+- ``docker build -t img-puissance4 .``
+#### Utilisation
+- ````
 * * *
 
 ### Conclusion
