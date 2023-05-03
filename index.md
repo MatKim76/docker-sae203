@@ -18,20 +18,44 @@
 
 * * *
 
-## Compte rendu de notre SAE : 
+## Compte rendu de notre SAE
 
-Dans un premier temps, nous avons effectué le TP d'initiation à dockerfile dans chacune de nos machine personnelles, ce qui 
+Dans un premier temps, nous avons effectué le TP d'initiation git chacun de notre côté (ou ensemble pour les TP3 et 4) avant les premières séances dédiées 
+à cette SAE. Dans ces TP d'initiation nous avons appris à utiliser git et GitHub. Nous avons appris toutes sortes de travailler depuis le dépot git de par
+nos machines respectives.
+
+GitHub nous permettrait alors de pouvoir travailler sur le même répertoire, sur les mêmes fichiers et y faire des modifications. Il faut aussi faire 
+attention à ne pas faire de modification en même temps sous peine de causer des conflits, ce qui empêche toute intéraction avec GitHub avant que le conflit 
+ne soit corrigé par un ``git add <fichier>`` ou ``git restore <fichier>`` depuis les machines utilisateurs. Sans fichier ``index.md``, le gh-pages se 
+basera sur un autre fichier au format MARKDOWN, un README par exemple.
+
+Nous avons ensuite, par le biais du TP5 de l'initiation GIT, les gh pages. Nous pouvons à partir d'un répertoire **public** créer une page internet. A 
+partir d'un ``index.md`` ainsi qu'un ``config.yml`` (pour importer des styles, une sorte de css), GitHub nous génrère un site internet comme celui-ci.
+Le ``index.md`` est notre base où nous renseignerons tout ce que devra contenir le site (titres, texte, tableaux, ...) à la manière d'un fichier html sauf 
+que l'on peut ici oublier les balises.
+
+
+Par la suite, nous avons effectué le TP d'initiation à dockerfile dans chacune de nos machine personnelles, ce qui 
 nous a permis de nous familiariser avec ce type de fichier. 
 
 * * *
 
-## Explication de Dockerfile, son utilité dans notre projet :(expliquer plus en détail dockerfile)
+## Explication de Dockerfile, son utilité dans notre projet
 
-Dockerfile nous permet de ...
+Docker présente de multiples avantages, en permettant de développer des applications faciles à assembler, à maintenir et à déplacer. Les conteneurs 
+permettent l’isolation des applications entre elles et du système sous-jacent.
+
+Ils permettent aussi la portabilité, puisque les applications n’ont pas à être liées au système d’exploitation hôte. Les applications conteneurisées 
+peuvent par exemple être aisément transférées de systèmes sur site vers les environnements Cloud.
+
+L’outil Docker est à la fois bénéfique pour les développeurs et pour les administrateurs système. On le retrouve souvent au coeur des processus DevOps.
+
+Les développeurs peuvent se focaliser sur leur code, sans avoir à se soucier du système sur lequel il sera exécuté. En outre, ils peuvent gagner du temps 
+en incorporant des programmes pré-conçus pour leurs applications.
 
 * * *
 
-## Le programme, la suite de commandes, à exécuter par notre Dockerfile :
+## Le programme, la suite de commandes, à exécuter par notre Dockerfile
 
 Par la suite nous nous sommes mis d'accord pour trouver un programme à exécuter avec ce fichier, nous avons choisi de faire un
 jeu Puissance 4 en java. Ce jeu pourra être jouable en simultané sur 2 machines. Un des deux joueurs pourra créer une salle
@@ -44,7 +68,7 @@ Le client devra alors rentrer le même port et l'ip du serveur. De plus, chacun 
 
 * * *
 
-## Consignes d'installations (README.md)
+## Consignes d'installations
 
 Pour utiliser notre projet :
 
@@ -69,6 +93,7 @@ dans un terminal
 
 Cette SAE nous a permis de nous familiariser avec git, cette plateforme de dépot pourrait nous avérer être utile dans notre 
 futur, que ce soit dans notre parcours à l'IUT ou bien dans notre vie professionnelle.
+
 GitHub regroupe de nombreux projets et se montrer très pratique puisque l'accès y est rapide ainsi de par son abilité à 
 insérer tout type de fichier de par tout type de langage.
 
