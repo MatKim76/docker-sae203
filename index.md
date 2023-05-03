@@ -1,122 +1,57 @@
----
-layout: default
----
+### Notre équipe pour cette SAE
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+| Prénom       | Nom               | Groupe |
+|:-------------|:------------------|:-------|
+| Trystan      | Baillobay         | B      |
+| Maxime       | Lemoine           | B      |
+| Matéo        | Sa                | B      |
 
 * * *
 
-### Here is an unordered list:
+### Nos pages respectives :
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+[Trystan](https://github.com/ydroo)
+[Matéo](https://github.com/MatKim76)
+[Maxime](https://github.com/Maximeuuu)
 
-### And an ordered list:
+* * *
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+## Compte rendu de notre SAE : 
 
-### And a nested list:
+Dans un premier temps, nous avons effectué le TP d'initiation à dockerfile dans chacune de nos machine personnelles, ce qui 
+nous a permis de nous familiariser avec ce type de fichier. 
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+* * *
 
-### Small image
+### Explication de Dockerfile, son utilité dans notre projet :(expliquer plus en détail dockerfile)
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+Dockerfile nous permet de ...
 
-### Large image
+* * *
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+### Le programme, la suite de commandes, à exécuter par notre Dockerfile :
 
+Par la suite nous nous sommes mis d'accord pour trouver un programme à exécuter avec ce fichier, nous avons choisi de faire un
+jeu Puissance 4 en java. Ce jeu pourra être jouable en simultané sur 2 machines. Un des deux joueurs pourra créer une salle
+(il jouera alors le rôle de serveur). Ce joueur transmettra son ip (depuis le pare-feu pour un ordinateur windows ou alors le 
+nom sous l'écran de la machine pour un PC de l'IUT) ainsi que le port sur lequel ils joueront à l'autre joueur, le client.
+Le client devra alors rentrer le même port et l'ip du serveur. De plus, chacun des joueurs pourra choisir un pseudo qui pourra 
+être affiché sur la fenêtre de jeu.
 
-### Definition lists can be used with HTML syntax.
+* * *
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+### Consignes d'installations (README.md)
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+...
 
-```
-The final element.
-```
+* * *
+
+### Conclusion
+
+Cette SAE nous a permis de nous familiariser avec git, cette plateforme de dépot pourrait nous avérer être utile dans notre 
+futur, que ce soit dans notre parcours à l'IUT ou bien dans notre vie professionnelle.
+GitHub regroupe de nombreux projets et se montrer très pratique puisque l'accès y est rapide ainsi de par son abilité à 
+insérer tout type de fichier de par tout type de langage.
+
+Couplé à Dockerfile qui nous permet d'exécuter notre programme depuis n'importe quelles machines, les possibilités sont 
+nombreuses.
