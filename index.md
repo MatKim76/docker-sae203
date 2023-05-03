@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## Notre équipe pour cette SAE
 
 | Prénom       | Nom               | Groupe |
