@@ -116,8 +116,11 @@ Dans un terminal
 
 ## Utilisation
 
-- Flèche de gauche : Naviguer à la colonne de gauche du plateau
-- Flèche de droite : Naviguer à la colonne de droite du plateau
+### Naviguer dans les colonnes du plateau
+- Flèche de gauche : colonne de gauche
+- Flèche de droite : colonne de droite
+
+### Jouer
 - Flèche du bas    : Poser une pièce dans la colonne selectionnée
 
 * * *
