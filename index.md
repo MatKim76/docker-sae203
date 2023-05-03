@@ -91,6 +91,8 @@ Dans un terminal
 3. Construire l'image : ``docker build -t img-puissance4``.
 4. Fermer le terminal.
 
+* * *
+
 ## Instruction pour lancer le Puissance4
 
 ### Dans un premier terminal
@@ -110,9 +112,13 @@ Dans un terminal
  
 **Vous pouvez jouer via les deux terminals !**
 
-#### Utilisation
+* * *
 
-- ````
+## Utilisation
+
+- Flèche de gauche : Naviguer à la colonne de gauche du plateau
+- Flèche de droite : Naviguer à la colonne de droite du plateau
+- Flèche du bas    : Poser une pièce dans la colonne selectionnée
 
 * * *
 
