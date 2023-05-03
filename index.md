@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Notre équipe pour cette SAE
 
 | Prénom       | Nom               | Groupe |
@@ -35,7 +39,9 @@ Dockerfile nous permet de ...
 
 Par la suite nous nous sommes mis d'accord pour trouver un programme à exécuter avec ce fichier, nous avons choisi de faire un
 jeu Puissance 4 en java. Ce jeu pourra être jouable en simultané sur 2 machines. Un des deux joueurs pourra créer une salle
-(il jouera alors le rôle de serveur). Ce joueur transmettra son ip (depuis le pare-feu pour un ordinateur windows ou alors le 
+(il jouera alors le rôle de serveur). 
+
+Ce joueur transmettra son ip (depuis le pare-feu pour un ordinateur windows ou alors le 
 nom sous l'écran de la machine pour un PC de l'IUT) ainsi que le port sur lequel ils joueront à l'autre joueur, le client.
 Le client devra alors rentrer le même port et l'ip du serveur. De plus, chacun des joueurs pourra choisir un pseudo qui pourra 
 être affiché sur la fenêtre de jeu.
