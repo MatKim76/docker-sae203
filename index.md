@@ -88,7 +88,7 @@ Sur la machine utilisateur
 Dans un terminal
 1. Vérifier que docker est installé : ``docker --version``.
 2. Se déplacer dans le répertoire où se situe l'image ``Dockerfile`` : ``cd <repertoire>``.
-3. Construire l'image : ``docker build -t img-puissance4 .``
+3. Construire l'image : ``docker build -t img-puissance4``.
 4. Fermer le terminal.
 
 ## Instruction pour lancer le Puissance4
