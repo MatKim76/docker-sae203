@@ -64,14 +64,23 @@ une image à partir d'un ensemble de fichiers sources.
 
 ## Démonstration
 
-Par la suite nous nous sommes mis d'accord pour trouver un programme à exécuter avec ce fichier, nous avons choisi de faire un
-jeu Puissance 4 en **java**. Ce jeu pourra être jouable en simultané sur **2 machines**. Un des deux joueurs pourra créer une salle
-(il jouera alors le rôle de serveur). 
+Par la suite nous nous sommes mis d'accord pour trouver un programme à exécuter avec ce fichier, nous avons choisi de faire un jeu Puissance 4 en **java**. Ce jeu pourra être jouable en simultané sur **2 machines**.
+- Un des deux joueur devra créer un serveur (héberger la partie) et créer aussi un client (et rejoindre le serveur). 
+![serveur](https://github.com/MatKim76/docker-sae203/blob/gh-pages/images/interface_serveur.png)
+![joueur2](https://github.com/MatKim76/docker-sae203/blob/gh-pages/images/interface_joueur2.png)
 
-Ce joueur transmettra son ip (depuis le pare-feu pour un ordinateur windows ou alors le 
-nom sous l'écran de la machine pour un PC de l'IUT) ainsi que le port sur lequel ils joueront à l'autre joueur, le client.
-Le client devra alors rentrer le même port et l'ip du serveur. De plus, chacun des joueurs pourra choisir un pseudo qui pourra 
-être affiché sur la fenêtre de jeu.
+- L'autre joueur devra simplement créer un client et rejoindre le serveur.
+![joueur1](https://github.com/MatKim76/docker-sae203/blob/gh-pages/images/interface_joueur1.png)
+
+Le joueur qui héberge transmettra son ip (depuis le pare-feu pour un ordinateur windows ou alors le 
+nom sous l'écran de la machine pour un PC de l'IUT) ainsi que le port sur lequel ils joueront à l'autre joueur (le deuxième client).
+Le deuxième joueur devra alors rentrer le même port et l'ip du serveur. 
+![serveur](https://github.com/MatKim76/docker-sae203/blob/gh-pages/images/ip_serveur.png)
+
+De plus, chacun des joueurs pourra choisir un pseudo qui pourra être affiché sur la fenêtre de jeu.
+
+Une fois le serveur créé et les deux clients ajoutés, la partie se lance, chacun son tour, les joueurs peuvent placer leurs pieces dans le plateau du jeu jusqu'à ce que l'un d'eux gagne ou que la partie se termine.
+![partie](https://github.com/MatKim76/docker-sae203/blob/gh-pages/images/partie_2joueurs.png)
 
 * * *
 
@@ -86,11 +95,11 @@ Instructions dans le [README.md](https://github.com/MatKim76/docker-sae203/blob/
 ## Utilisation
 
 ### Naviguer dans les colonnes du plateau
-- Flèche de gauche : colonne de gauche
-- Flèche de droite : colonne de droite
+- il faut donner une valeur numérique correspondant au numéro de la colonne (entre 1 et 7 inclus)
 
 ### Jouer
-- Flèche du bas    : Poser une pièce dans la colonne selectionnée
+- Il faut attendre son tour avant de pouvoir jouer
+- <Entrer>    : Poser une pièce dans la colonne selectionnée
 
 * * *
 
