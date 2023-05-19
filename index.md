@@ -103,6 +103,12 @@ Instructions dans le [README.md](https://github.com/MatKim76/docker-sae203/blob/
 
 * * *
 
+## Problèmes rencontrés
+- Nous avons eu des problèmes pour synchroniser correctement les deux clients avec le serveur pour les empêcher de jouer. Nous avions une interface graphique pour la partie "jeu" mais à cause de ces problèmes de synchronisations nous sommes revenus à une version console CUI.
+- Docker est complexe à utiliser, et remplit de bug inatendus comme le fait que même après la suppression totale du conteneur, il reste des résidus impossibles à supprimer. Il était donc difficile de mettre à jour l'application par moments.
+- Il était assez complexe de mettre la partie graphique sur Docker, nous avons dû passer par un serveur graphique ("X11") et chercher les commandes à exécuter qui ne sont pas faciles à trouver pour le dockerfile ainsi que pour exécuter le docker.
+- Le temps donné par rapport aux autres cours en même temps n'a pas beaucoup aidé non plus, il y a certaines parties de notre jeu où l'on a fait l'impasse (comme par exemple la partie graphique du jeu qui était trop complexe à mettre en oeuvre à cause des problèmes cités plus haut).
+
 ## Conclusion
 
 Cette SAE nous a permis de nous familiariser avec **git**, cette plateforme de dépot pourrait nous avérer être utile dans notre 
@@ -115,3 +121,5 @@ GitHub regroupe de nombreux projets et se montrer très pratique puisque l'accè
 Couplé à Dockerfile qui nous permet d'exécuter notre programme depuis n'importe quelles machines, les possibilités sont 
 **nombreuses**, nous avons ici choisi de faire un Puissance 4 en Java mais des systèmes de messageries en ligne ou bien des emplois du temps interactifs par exemple
 sont envisageables grace à ce système employé.
+
+Docker est un outil simple aux premiers abords mais qui peut rapidement devenir assez complexe et contraignant, c'est un outil intéressant à voir mais qu'il faudrait approfondir pour avoir une meilleure utilisation.
