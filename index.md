@@ -67,10 +67,10 @@ une image à partir d'un ensemble de fichiers sources.
 Par la suite nous nous sommes mis d'accord pour trouver un programme à exécuter avec ce fichier, nous avons choisi de faire un jeu Puissance 4 en **java**. Ce jeu pourra être jouable en simultané sur **2 machines**.
 - Un des deux joueur devra créer un serveur (héberger la partie) et créer aussi un client (et rejoindre le serveur). 
 ![serveur](https://github.com/MatKim76/docker-sae203/blob/gh-pages/images/interface_serveur.png)
-![joueur2](https://github.com/MatKim76/docker-sae203/blob/gh-pages/images/interface_joueur2.png)
+![joueur2](https://github.com/MatKim76/docker-sae203/blob/gh-pages/images/interface_joueur1.png)
 
 - L'autre joueur devra simplement créer un client et rejoindre le serveur.
-![joueur1](https://github.com/MatKim76/docker-sae203/blob/gh-pages/images/interface_joueur1.png)
+![joueur1](https://github.com/MatKim76/docker-sae203/blob/gh-pages/images/interface_joueur2.png)
 
 Le joueur qui héberge transmettra son ip (depuis le pare-feu pour un ordinateur windows ou alors le 
 nom sous l'écran de la machine pour un PC de l'IUT) ainsi que le port sur lequel ils joueront à l'autre joueur (le deuxième client).
