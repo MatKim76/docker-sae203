@@ -99,7 +99,7 @@ Instructions dans le [README.md](https://github.com/MatKim76/docker-sae203/blob/
 
 ### Jouer
 - Il faut attendre son tour avant de pouvoir jouer
-- <Entrer>    : Poser une pièce dans la colonne selectionnée
+- < Entrer >    : Poser une pièce dans la colonne selectionnée
 
 * * *
 
